@@ -1,0 +1,48 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1788687135497,
+      "tag": "0000_smart_rattler",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1788687248367,
+      "tag": "0001_slow_nuke",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1788779677212,
+      "tag": "0002_empty_celestials",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1788866039718,
+      "tag": "0003_optimal_human_cannonball",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1788949079596,
+      "tag": "0004_certain_dark_beast",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "5",
+      "when": 1792897883473,
+      "tag": "0005_small_tana_nile",
+      "breakpoints": true
+    }
+  ]
+}
