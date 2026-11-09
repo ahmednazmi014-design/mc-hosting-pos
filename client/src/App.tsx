@@ -17,7 +17,7 @@ function PublicShell() {
 }
 
 function App() {
-  return <ErrorBoundary><ThemeProvider defaultTheme="dark"><TooltipProvider><CartProvider><Toaster /><Switch><Route path="/admin/hosting" component={HostingDashboard} /><Route path="/admin/gallery" component={AdminGalleryPage} /><Route path="/admin" component={AdminPage} /><Route component={PublicShell} /></Switch></CartProvider></TooltipProvider></ThemeProvider></ErrorBoundary>;
+  return <ErrorBoundary><ThemeProvider defaultTheme="dark"><TooltipProvider><CartProvider><Toaster /><Switch><Route path="/" component={HostingDashboard} /><Route path="/admin/hosting" component={HostingDashboard} /><Route path="/admin/gallery" component={AdminGalleryPage} /><Route path="/admin" component={AdminPage} /><Route component={PublicShell} /></Switch></CartProvider></TooltipProvider></ThemeProvider></ErrorBoundary>;
 }
 
 export default App;
